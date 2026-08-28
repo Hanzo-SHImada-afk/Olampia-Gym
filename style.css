@@ -1,0 +1,99 @@
+/* | Purpose                 | Color          | HEX       |
+| ----------------------- | -------------- | --------- |
+| 🖤 Main background      | Deep Black     | `#080808` |
+| 🖤 Secondary background | Charcoal       | `#111111` |
+| ⬛ Card background       | Dark Gray      | `#161616` |
+| 🟡 Main gold/yellow     | Olympia Gold   | `#FFC400` |
+| 🟨 Bright gold          | Highlight Gold | `#FFD21A` |
+| 🟠 Dark gold            | Shadow Gold    | `#D99F00` |
+| ⚪ Main text             | White          | `#FFFFFF` |
+| ◻️ Secondary text       | Light Gray     | `#D0D0D0` |
+| 🌑 Muted text           | Gray           | `#858585` |
+| 🔲 Borders              | Dark Border    | `#292929` | */
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url("fonts/Vazirmatn-Thin.woff2") format("woff2");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url("fonts/Vazirmatn-ExtraLight.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url("fonts/woff2/Vazirmatn-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url("fonts/woff2/Vazirmatn-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url("fonts/woff2/Vazirmatn-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url("fonts/woff2/Vazirmatn-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url("fonts/woff2/Vazirmatn-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url("fonts/woff2/Vazirmatn-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url("fonts/woff2/Vazirmatn-Black.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vazirmatn FD";
+    src: url("fonts/FD/Vazirmatn-FD-Light.woff2") format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Vazirmatn FD";
+    src: url("fonts/FD/Vazirmatn-FD-Bold.woff2") format("woff2");
+    font-weight: 700;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Vazirmatn", sans-serif;
+}
+
