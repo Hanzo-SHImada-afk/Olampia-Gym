@@ -86,6 +86,20 @@
     font-weight: 700;
 }
 
+:root {
+    --black: #080808;
+    --dark: #111111;
+    --card: #161616;
+    --gold: #FFC400;
+    --gold-light: #FFD21A;
+    --gold-dark: #D99F00;
+    --white: #FFFFFF;
+    --text-gray: #D0D0D0;
+    --muted: #858585;
+    --border: #292929;
+}
+
+
 
 * {
     margin: 0;
@@ -95,5 +109,25 @@
 
 body {
     font-family: "Vazirmatn", sans-serif;
+    background-color: var(--black);
+    color: var(--white);
 }
 
+nav {
+    width: 100%;
+    padding: 1rem 5%;
+    background-color: var(--black);
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 2rem;
+}
+
+.logo img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
