@@ -225,17 +225,20 @@ nav {
 }
 
 h2 {
+    font-family: 'Vazirmatn', sans-serif;
     font-size: 28px;
     margin: 20px 0;
 }
 
 p {
+    font-family: 'Vazirmatn', sans-serif;
     font-weight: 100;
     font-size: 15px;
     margin-top: 5px;
 }
 
 .section {
+    font-family: 'Vazirmatn', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,3 +266,165 @@ p {
     width: 100%;
     height: 100%;
 }
+
+
+.pricing {
+    width: 95%;
+
+    margin: auto;
+}
+
+
+.pricing-container {
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 15px;
+}
+
+
+.price-card {
+    width: 33.33%;
+
+    min-height: 280px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    background-color: var(--dark);
+
+    border: 1px solid var(#292929);
+
+    border-radius: 6px;
+
+    padding: 15px;
+}
+
+
+.price-card h2 {
+    font-size: 25px;
+
+    font-weight: 700;
+
+    margin: 5px 0 10px;
+}
+
+
+.price-card h3 {
+    color:var(--white);
+
+    font-size: 25px;
+
+    font-weight: 900;
+
+    margin: 0;
+}
+
+
+.price-card > p {
+    color:var(--muted);
+
+    font-size: 10px;
+
+    margin: 0 0 10px;
+}
+
+
+.price-card ul {
+    width: 100%;
+
+    padding: 0;
+
+    margin: 5px 0 15px;
+
+    list-style: none;
+
+    text-align: right;
+}
+
+
+.price-card li {
+    color:var(--text-gray);
+
+    font-size: 11px;
+
+    margin-bottom: 7px;
+}
+
+
+.price-card button {
+    width: 90%;
+
+    margin-top: auto;
+
+    padding: 10px;
+
+    background-color:var(--gold);
+
+    color: var(--black);
+
+    border: none;
+
+    border-radius: 7px;
+
+    font-family: "Vazirmatn";
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.section-title{
+    text-align: center;
+}
+
+
+.footers{
+    width: 100%;
+    height: 240px;
+    display: flex;
+    border-top: var(--gold) 1px solid;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.footer-line{
+    border: var(--gold) 1px solid;
+    width: 100%;
+    height: 1px;
+}
+
+.f-logo{
+    display: flex;
+    align-items: center;
+}
+.f-logo img{
+    margin-right: 10PX;
+    width: 150px;
+    height: 150px;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 110px;
+}
+
+.footer-section a{
+    text-decoration: none;
+    font-weight: 100;
+}
+
+
+
+
+
+
