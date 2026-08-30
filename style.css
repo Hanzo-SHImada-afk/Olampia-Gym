@@ -315,6 +315,7 @@ p {
 
 
 .price-card h3 {
+    font-family: "Vazirmatn FD" ,sans-serif;
     color:var(--white);
 
     font-size: 25px;
